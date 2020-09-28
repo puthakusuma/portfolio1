@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 3%;
+    padding-top: 3px;
+}
+
+a:hover {
+    text-decoration: none;
+    margin-left: 2%;
+    padding: 1%;
+    background-color: rgb(111, 115, 182);
+}
+
+.nav-item {
+    margin-left: 4%;
+    padding-top: 2%;
+}
+
+.nav-color {
+    color: rgb(88, 28, 228);
+    padding-left: 3%;
+}
+
+.nvbar-padding {
+    margin-left: 40%;
+    padding-top: 1%;
+    padding-left: 13%;
+}
+
+
+/*portfolio-First */
+
+.portfolio {
+    border: 1px solid blue;
+}
+
+
+/* image section */
+
+.portfolio-image {
+    height: 500px;
+    width: 100%;
+    background-image: url("images/backgroundImage.jpeg");
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.port-image {
+    height: 260px;
+    width: 300px;
+    border-radius: 70%;
+}
+
+
+/* /image section */
+
+.img-photo {
+    position: absolute;
+    top: 190px;
+    left: 70%;
+}
+
+.port-kusuma {
+    font-size: x-large;
+    color: rgb(245, 10, 10);
+    padding-top: 150px;
+    margin-left: 34%;
+}
+
+.port-software {
+    width: 40%;
+    color: rgb(240, 240, 226);
+    padding-top: 10px;
+    margin-left: 33%;
+    font-size: large;
+}
+
+.portfolio-skills {
+    border: 2px solid blue;
+}
+
+
+/**about me */
+
+.aboutMe {
+    height: 300px;
+    width: 100%;
+    font-size: medium;
+    color: rgb(238, 229, 229);
+}
+
+.aboutme-me,
+.aboutme-exp,
+.aboutme-project,
+.aboutme-skil,
+.aboutme-edu,
+.aboutme-cont {
+    color: #f6f7fc;
+    padding: 2%;
+}
+
+.about-abo {
+    background-color: rgb(101, 189, 216);
+    padding: 10%;
+    opacity: 0.6;
+}
+
+
+/** /about me */
+
+
+/* Expirence */
+
+.about-me,
+.expirence-exp,
+.project-pro,
+.education-edu,
+.contact-cont {
+    margin-left: 15%;
+    color: azure;
+}
+
+.expirence-expir {
+    background-color: rgb(128, 158, 58);
+    padding: 10%;
+    opacity: 0.6;
+}
+
+
+/* /Expirence */
+
+
+/* skills */
+
+.skill-skil {
+    background-color: rgb(172, 170, 170);
+    padding: 10%;
+    opacity: 0.6;
+}
+
+
+/* /skills */
+
+
+/* project */
+
+.prot-pro {
+    padding-left: 15%;
+    margin: 5%;
+}
+
+.project-pro {
+    color: black;
+    padding-left: 20%;
+}
+
+.link-kun {
+    color: blue;
+}
+
+.pro-name {
+    color: azure;
+    padding-top: 7px;
+    padding-left: 4%;
+    font-size: medium;
+}
+
+.pro-named {
+    margin-top: 2%;
+}
+
+.project-projt {
+    background-color: rgb(141, 63, 118);
+    padding: 10%;
+    opacity: 0.6;
+}
+
+
+/* /project */
+
+
+/* Eucation */
+
+.education-edutc {
+    background-color: rgb(179, 108, 41);
+    padding: 10%;
+    opacity: 0.6;
+}
+
+
+/* /EDucation */
+
+
+/* contact */
+
+.contact-cont {
+    font-size: medium;
+    padding-left: 10%;
+    padding-top: 2px;
+}
+
+.contact-c {
+    margin: 2%;
+}
+
+.contact-cact {
+    background-color: rgb(46, 18, 18);
+    padding: 10%;
+    opacity: 0.6;
+}
+
+
+/* /contact */
